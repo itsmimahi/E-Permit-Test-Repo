@@ -1,0 +1,83 @@
+
+================================================================================
+RECURRING ISSUE ANALYSIS REPORT
+================================================================================
+
+Report Generated: 2026-01-12 10:26:02
+Property: Mangum
+Asset: Pump
+Analysis Period: 2023-11-10 09:00:00 to 2025-08-22 06:44:00
+Total Work Orders Analyzed: 29
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+The primary recurring issue at Mangum property, affecting the pump asset, is 'Alarm Automatic-FacilityLink,' which has triggered all 29 analyzed work orders. These alarms predominantly originate from chiller and building hot water system anomalies, particularly those associated with the chiller (CLR_01[CWS_01]_chillerAlarm) and hot water system (HWS_01[Building Hot Water]_secPump01Alarm & HWS_01[Building Hot Water]_boilerAlarm). Analysis of technician completion notes suggests that these alarms are often related to pump tripping, starter malfunctions necessitating APS (Automated Process Solutions) adjustments, and out-of-range temperature readings, as well as sensors, hinting at potential sensor calibration or failure issues. A significant contributing factor involves APS personnel performing PMs or working on other equipment (air handlers, etc.) which trigger nuisance alarms, leading to frequent reactive interventions rather than preventive measures. The temporal analysis does not show clear seasonal trends, but there is clumping of alarms, hinting at external factors (weather).
+
+================================================================================
+PRIMARY ISSUE CATEGORIES
+================================================================================
+
+1. Alarm Automatic-FacilityLink - Chiller Alarms (CLR_01[CWS_01]_chillerAlarm)
+2. Alarm Automatic-FacilityLink - Building Hot Water System Alarms (HWS_01[Building Hot Water]_secPump01Alarm, HWS_01[Building Hot Water]_boilerAlarm)
+3. Pump Tripping
+4. Starter Malfunction
+5. Out of Range Alarms (Temperature related)
+6. Alarms triggered during PM/work on other equipment
+
+
+================================================================================
+FREQUENCY AND PATTERNS ANALYSIS
+================================================================================
+
+The temporal data reveals that the 'Alarm Automatic-FacilityLink' issue recurs frequently, with several instances of alarms occurring within short intervals (days) of each other. There is no immediately obvious daily or weekly pattern, but closer inspection suggests clumping of work orders. Many of the alarms have to do with changes in outside air temperature. There are work order pairs separated by days. These patterns indicate that the underlying causes are either sporadic or are related to external factors (e.g., weather changes impacting temperature ranges).
+
+================================================================================
+ROOT CAUSE ANALYSIS
+================================================================================
+
+Technician completion notes highlight several recurring themes. A significant number of alarms stem from pump tripping, often requiring APS involvement to adjust and reset starters. The starter reset button is sometimes identified as not working properly. Out-of-range alarms, particularly temperature-related, are another prevalent issue. Furthermore, APS activities like PMs or work on other HVAC equipment often inadvertently trigger alarms. Technicians frequently clear alarms without identifying or addressing the root cause, indicating a reactive approach. Sensor issues and calibration problems were also noted, specifically within the hot water system and chillers. The documentation suggest that the maintenance leans heavily toward reactive fixes with limited preventive measures.
+
+================================================================================
+IMPACT ASSESSMENT
+================================================================================
+
+The frequent recurrence of 'Alarm Automatic-FacilityLink' issues suggests a significant operational disruption. The chiller alarms and hot water system alarms are most likely for critical systems. The constant need for APS intervention to reset starters implies potential equipment failure or instability, leading to increased maintenance costs and potential downtime. These issues have operational disruption to chillers, air handlers, hot water and may lead to uncomfortable areas for tenants. The reactive approach to alarm resolution, without addressing root causes, further compounds the problem, leading to a cycle of recurring issues.
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. Implement a comprehensive preventative maintenance program for the pump starters, including regular inspections, cleaning, and component replacements to prevent tripping issues and ensure proper functioning.
+
+2. Investigate and address the root causes of out-of-range temperature alarms, including sensor calibration, control system logic, and potential insulation or ductwork issues.
+
+3. Develop a standardized procedure for APS activities to minimize the occurrence of inadvertent alarm triggers, including pre-activity checks and post-activity alarm resets.
+
+4. Implement a more proactive maintenance strategy, prioritizing root cause analysis and long-term solutions over quick fixes to prevent recurring issues.
+
+5. Consider upgrading or replacing unreliable sensors, particularly in the hot water system and chillers, to improve data accuracy and reliability.
+
+6. Conduct a sensor calibration program to ensure sensors are reading correct data.
+
+7. Consider updating the BAS alarms and tolerances to avoid nuisance alarms
+
+
+================================================================================
+DETAILED STATISTICAL BREAKDOWN
+================================================================================
+
+Total Unique Issue Descriptions: 2
+Most Common Problem Type: Alarm Automatic-FacilityLink
+Most Active Day: Thursday
+
+Problem Type Distribution:
+  - Alarm Automatic-FacilityLink: 29 occurrences (100.0%)
+
+
+
+================================================================================
+END OF REPORT
+================================================================================
+
